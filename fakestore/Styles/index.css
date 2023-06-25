@@ -1,0 +1,123 @@
+* {
+  padding: 00px;
+  margin: 00px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  height: 230vh;
+  position: relative;
+}
+nav {
+  width: 100%;
+  top: 0px;
+  max-height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+nav > .searchBox {
+  position: relative;
+  width: 30%;
+}
+.searchBox > input {
+  padding: 8px;
+  width: 60%;
+
+  border-radius: 10px;
+  text-indent: 25px;
+}
+
+input ::placeholder {
+  color: rgba(128, 128, 128, 0.545);
+}
+
+nav > .searchBox > input + i {
+  position: absolute;
+  left: 10px;
+  color: gray;
+  top: 7px;
+}
+
+ul {
+  display: flex;
+  margin-left: 30%;
+  gap: 20px;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: gray;
+}
+a > span {
+  font-size: 20px;
+}
+
+span {
+  display: flex;
+  /* letter-spacing: 2px; */
+}
+section {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+  row-gap: 60px;
+  column-gap: 40px;
+}
+
+.imageWrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.imageWrapper > img {
+  width: 150px;
+  height: 180px;
+  display: block;
+  margin: auto;
+}
+.titleWrapper {
+  margin: auto;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+button {
+  text-align: center;
+  display: block;
+  margin: auto;
+  width: 20%;
+  cursor: pointer;
+  background-color: aqua;
+}
+.cartLeng {
+  position: relative;
+}
+.cartLeng > p {
+  position: absolute;
+
+  right: -9px;
+  bottom: 14px;
+  background-color: rgba(255, 0, 0, 0.871);
+  color: white;
+  font-weight: bolder;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  font-size: 12px;
+  border-radius: 100%;
+}
+.logo > img {
+  width: 200px;
+  object-fit: cover;
+}

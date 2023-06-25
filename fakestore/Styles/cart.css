@@ -1,0 +1,36 @@
+.parent-cart {
+  display: flex;
+  width: 80%;
+  flex-direction: column;
+  gap: 10px;
+}
+.parent-cart > div > img {
+  width: 80px;
+}
+.parent-cart > div {
+  border: 1px solid black;
+  height: 10rem;
+  width: 60%;
+}
+.parent-cart > div {
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+}
+.incBtn {
+  background-color: transparent;
+  color: green;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.deleteBtnWrapper {
+  color: red;
+  cursor: pointer;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+}
